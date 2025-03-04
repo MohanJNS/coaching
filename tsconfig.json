@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "sourceMap": true,  // <-- Add this line
+    "inlineSources": true  // <-- Optional for debugging
+  }
+}
